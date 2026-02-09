@@ -1,0 +1,51 @@
+{
+  "name": "your-vendor/wp-mcp-core-abilities",
+  "description": "Comprehensive WordPress abilities for MCP Adapter - exposes core WordPress functionality to AI agents",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "wordpress",
+    "mcp",
+    "model-context-protocol",
+    "abilities",
+    "ai",
+    "claude",
+    "automation"
+  ],
+  "homepage": "https://github.com/your-repo/wp-mcp-core-abilities",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/your-repo/wp-mcp-core-abilities/issues",
+    "source": "https://github.com/your-repo/wp-mcp-core-abilities"
+  },
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "^1.0 || ^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "wp-coding-standards/wpcs": "^3.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.0"
+  },
+  "autoload": {
+    "classmap": [
+      "includes/"
+    ]
+  },
+  "scripts": {
+    "phpcs": "phpcs --standard=WordPress --extensions=php --ignore=*/vendor/*,*/node_modules/* .",
+    "phpcbf": "phpcbf --standard=WordPress --extensions=php --ignore=*/vendor/*,*/node_modules/* .",
+    "test": "phpunit"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
