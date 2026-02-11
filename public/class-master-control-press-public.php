@@ -57,7 +57,7 @@ class Master_Control_Press_Public {
 			MASTER_CONTROL_PRESS_PLUGIN_URL . 'assets/js/master-control-press-public.js',
 			array( 'jquery' ),
 			$this->version,
-			false
+			true
 		);
 	}
 }
