@@ -1,0 +1,73 @@
+# WordPress
+.DS_Store
+Thumbs.db
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
+
+# WordPress Plugins
+wp-content/mu-plugins/
+wp-content/plugins/*
+!wp-content/plugins/master-control-press/
+
+# Logs
+*.log
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build files
+/dist/
+/build/
+*.min.js
+*.min.css
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Composer
+composer.phar
+/vendor/
+composer.lock
+
+# npm
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# PHP
+phpcs.xml
+phpunit.xml
