@@ -17,6 +17,7 @@ function master_control_press_uninstall() {
 	// Delete plugin options.
 	delete_option( 'master_control_press_options' );
 	delete_option( 'master_control_press_version' );
+	delete_option( 'master_control_press_activated_time' );
 
 	// For site options in Multisite.
 	delete_site_option( 'master_control_press_options' );
